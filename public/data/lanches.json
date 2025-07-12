@@ -2,16 +2,19 @@
   {
     "id": 1,
     "nome": "DevBurger Clássico",
-    "ingredientes": "Pão brioche, Carne 150g, Queijo cheddar, Alface americana, Tomate fresco, Molho especial"
+    "ingredientes": "Pão brioche, Carne 150g, Queijo cheddar, Alface americana, Tomate fresco, Molho especial",
+    "imagem": "../images/devburger-classico.jpg"
   },
   {
     "id": 2,
     "nome": "Burger de Bacon",
-    "ingredientes": "Pão australiano, Carne 180g, Queijo prato, Bacon crocante, Cebola caramelizada, Molho barbecue"
+    "ingredientes": "Pão australiano, Carne 180g, Queijo prato, Bacon crocante, Cebola caramelizada, Molho barbecue",
+    "imagem": "../images/bacon-burger.jpg"
   },
   {
     "id": 3,
     "nome": "Commit Veggie",
-    "ingredientes": "Pão integral, Burger de grão de bico, Queijo vegano, Rúcula, Tomate seco, Maionese de ervas"
+    "ingredientes": "Pão integral, Burger de grão de bico, Queijo vegano, Rúcula, Tomate seco, Maionese de ervas",
+    "imagem": "../images/veggie-burger.jpg"
   }
 ]

@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevBurger</title>
-</head>
-<body>
-    <h1>Página de contato</h1>
-</body>
+  </head>
+  <body>
+    <div>
+      <h1>Página de contato</h1>
+    </div>
+
+    <div>
+      <h2>Envie sua mensagem para nós:</h2>
+    </div>
+
+    <div id="suggestion-form">
+      <form action="/contato" method="post">
+        <div>
+          <label for="name">Nome:</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+
+        <div>
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+
+        <div>
+          <label for="subject">Assunto:</label>
+          <input type="text" name="subject" id="subject" required />
+        </div>
+
+        <div>
+          <label for="message">Mensagem:</label>
+          <input type="text" name="message" id="message" required />
+        </div>
+        <div>
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
