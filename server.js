@@ -32,7 +32,7 @@ app.get("/sugestao", (req, res) => {
         <p><strong>Ingredientes: </strong> ${ingredientes}</p>
       </div>
       <div class='footer'>
-        <button onclick="window.location.href='/'">Página incial</button>
+        <a href="/">Página inicial</a>
       </div>
     `);
 });
@@ -68,7 +68,7 @@ app.post("/contato", (req, res) => {
       <p><strong>Sua mensagem: </strong>${mensagem}</p>
     </div>
     <div class='footer'>
-      <button onclick="window.location.href='/'">Página incial</button>
+      <a href="/">Página inicial</a>
     </div>
   `);
 });
