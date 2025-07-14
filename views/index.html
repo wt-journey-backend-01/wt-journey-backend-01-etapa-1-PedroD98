@@ -4,16 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevBurger</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script defer src="/exibirLanches.js"></script>
   </head>
   <body>
     <div>
       <h1>Boas vindas ao DevBurger</h1>
     </div>
-    <div id="menu">
+
+    <div class="hidden" id="lanches">
       <h2>Menu:</h2>
+
+      <div class="lanches-cards-wrapper"></div>
     </div>
 
-    <div id="suggestion-form">
+    <div class="form" id="sugestao-form">
+      <h2>Envie sua sugestão:</h2>
       <form action="/sugestao" method="get">
         <div>
           <label for="nome">Nome:</label>
@@ -27,6 +33,12 @@
           <button type="submit">Enviar</button>
         </div>
       </form>
+    </div>
+
+    <div class="footer">
+      <button onclick="window.location.href='/contato'">
+        Entre em contato
+      </button>
     </div>
   </body>
 </html>
